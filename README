@@ -5,4 +5,6 @@ fabulxc has been tested on top of ubuntu natty lxc package, so far.
 fabulxc covers the setup of the container (the guest).
 fabulxc does not the network setup of the controler (the host). (I use brigde and NAT as described here http://alfie.ist.org/blog/2011/03/23)
 
-
+INSTALL:
+* get the source
+* add "from lxc import setup_lxc, clean_lxc" in your fabfile.py
